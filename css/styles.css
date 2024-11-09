@@ -1,16 +1,29 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f4f4f4;
+
+.boton-jugada{
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 1 s;
+
 }
-.boton-jugada {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+
+.boton-jugada:hover{
+    background-color: green;
+    transition: all 1s ;
 }
-#resultados {
-  font-size: 20px;
-  margin: 20px 0;
+
+#resultados{
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: blue;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: blue;
+    padding-left: 20px;
 }
